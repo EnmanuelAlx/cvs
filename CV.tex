@@ -3,7 +3,7 @@
 
 % Packages
 \usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
+\usepackage[spanish]{babel}
 \usepackage[margin=1.5cm]{geometry}
 \usepackage{hyperref}
 \usepackage{titlesec}
@@ -25,14 +25,14 @@
     citecolor=linkblue
 }
 
-% Section format (titles in black)
+% Section format (titles in black, sin línea)
 \titleformat{\section}
   {\Large\bfseries\color{black}}
   {}
   {0em}
-  {}[\titlerule]
+  {}
 
-\titlespacing{\section}{0pt}{12pt}{8pt}
+\titlespacing{\section}{0pt}{12pt}{6pt}
 
 % No page numbering
 \pagestyle{empty}
@@ -47,68 +47,74 @@
 
 % Header with name
 \begin{center}
-    {\Huge \textbf{\color{black} Enmanuel Madrid}}
-
-    \vspace{0.3cm}
-
-    \href{mailto:hey@enmanuelalx.com}{hey@enmanuelalx.com} | Venezuela, Guayana City | \href{https://enmanuelalx.com}{https://enmanuelalx.com}
+    {\Huge \textbf{\color{black} Enmanuel Alexander Madrid Morales}}
 
     \vspace{0.2cm}
-    \noindent\rule{\textwidth}{0.4pt}
+
+    Venezuela, Guayana City • \href{https://enmanuelalx.com}{enmanuelalx.com} • +58 424 9628692 • \href{mailto:hey@enmanuelalx.com}{hey@enmanuelalx.com}
 \end{center}
 
-% Summary
-\section*{Summary}
-Software engineer with a passion for challenges and continuous learning, with experience in architectures and design patterns, DevSecOps and a bit of red team, developing quality solutions together with the team to obtain the most optimal and secure solution
+\vspace{0.4cm}
+
+Ingeniero de software con pasión por los desafíos y el aprendizaje continuo, con experiencia en arquitecturas y patrones de diseño, DevSecOps y un poco de red team, desarrollando soluciones de calidad junto al equipo para obtener la solución más óptima y segura
 
 \vspace{0.3cm}
 
-% Skills
-\section*{Skills}
-Python, Node.js, Docker, Software Architecture, Laravel, Javascript, Databases, Design Patterns, Clean Architectures.
+% Experiencia Profesional
+\section*{Experiencia Profesional}
+
+\noindent
+\textbf{\color{black} Tech Lead | MO Technology.} \hfill \textbf{\color{black} Dic. 2021 -- Presente}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=4pt]
+    \item Desarrollo de sistemas usando diseño guiado por dominio con una arquitectura basada en colas de mensajes y metodología TDD.
+    \item 40\% de mejoras en procesos críticos en pipelines de CI/CD.
+    \item Aumento del rendimiento del equipo aplicando técnicas avanzadas de prompting, flujos de trabajo y reglas.
+    \item Construcción de un agente de IA para permitir a los usuarios consultar sus datos mediante lenguaje natural.
+\end{itemize}
 
 \vspace{0.3cm}
 
-% Education
-\section*{Education}
-\textbf{Computer Engineer} | Universidad Católica Andres Bello (February 2020)
+\noindent
+\textbf{\color{black} Ingeniero de Software | MyTeam Abroad.} \hfill \textbf{\color{black} Jul. 2020 -- Dic. 2021}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=4pt]
+    \item Desarrollador en el departamento de innovación para un cliente del sector automotriz, desarrollando soluciones con modelos de machine learning.
+\end{itemize}
 
 \vspace{0.3cm}
 
-% Professional Experience
-\section*{Professional Experience}
-
-\begin{tabularx}{\textwidth}{@{}p{3.5cm}X@{}}
-    \textbf{\color{black} Dec. 2021 - Present} &
-    \textbf{\color{black} Tech Lead | MO Technology.} \\
-    & Develop systems using domain driven design with an architecture based on message queue and a TDD methodology. \\
-    & \\
-    & 40\% improvements in critical processes in CI/CD pipelines \\
-    & \\
-    & Increased team performance by applying advanced prompting techniques, workflows and rules. \\
-    & \\
-
-    \textbf{\color{black} Jul. 2020 - Dec 2021} &
-    \textbf{\color{black} Software Engineer | MyTeam Abroad.} \\
-    & Developer in the innovation department for a client in the automotive sector, developing solutions with machine learning models. \\
-    & \\
-
-    \textbf{\color{black} Aug. 2019 - Nov. 2019} &
-    \textbf{\color{black} Full Stack Developer | 789.mx.} \\
-    & Developed package shipping modules and landing pages. \\
-    & \\
-
-    \textbf{\color{black} Jun. 2017 - Aug. 2019} &
-    \textbf{\color{black} Backend Developer | Jam IT Solution.} \\
-    & Develop and support ERP systems in addition to improving the core to apply SOLID principles and easily scale the system. \\
-\end{tabularx}
+\noindent
+\textbf{\color{black} Desarrollador Full Stack | 789.mx.} \hfill \textbf{\color{black} Ago. 2019 -- Nov. 2019}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=4pt]
+    \item Desarrollo de módulos de envío de paquetes y landing pages.
+\end{itemize}
 
 \vspace{0.3cm}
 
-% Additional Information
-\section*{Additional Information}
-Linkedin Profile: \href{https://www.linkedin.com/in/enmanuel-madrid/}{https://www.linkedin.com/in/enmanuel-madrid/}
+\noindent
+\textbf{\color{black} Desarrollador Backend | Jam IT Solution.} \hfill \textbf{\color{black} Jun. 2017 -- Ago. 2019}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=4pt]
+    \item Desarrollo y soporte de sistemas ERP además de mejorar el núcleo para aplicar principios SOLID y escalar fácilmente el sistema.
+\end{itemize}
 
-Completed Courses: \href{https://platzi.com/p/EnmanuelAlx/}{https://platzi.com/p/EnmanuelAlx/}
+\vspace{0.3cm}
+
+% Habilidades
+\section*{Habilidades}
+Python, Node.js, Docker, Arquitectura de Software, Laravel, Javascript, Bases de Datos, Patrones de Diseño, Arquitecturas Limpias.
+
+\vspace{0.3cm}
+
+% Educación
+\section*{Educación}
+\textbf{Ingeniero en Informática} | Universidad Católica Andres Bello (Febrero 2020)
+
+\vspace{0.3cm}
+
+% Información Adicional
+\section*{Información Adicional}
+Perfil de Linkedin: \href{https://www.linkedin.com/in/enmanuel-madrid/}{https://www.linkedin.com/in/enmanuel-madrid/}
+
+Cursos Completados: \href{https://platzi.com/p/EnmanuelAlx/}{https://platzi.com/p/EnmanuelAlx/}
 
 \end{document}
+
